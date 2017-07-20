@@ -1,0 +1,47 @@
+#map {
+  height: 50%;
+  width: 30%;
+  margin: 100px auto;
+  border-radius: 150px;
+
+}
+/* Optional: Makes the sample page fill the window. */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url("http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2009/7/29/1248889135233/docdoc-doughnut-001.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+#main_content{
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+button{
+  width: 10%;
+  margin: 50px;
+  height: 100px;
+  border-radius: 25px;
+  font-size: 24px;
+  font-family: 'Satisfy', cursive;
+  outline: none;
+}
+
+#donuts{
+  background-image: url("https://www.sandysdonuts.com/wp-content/uploads/2015/07/sandys-donuts-selections.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#dumbbells{
+  background-image: url("http://img.aws.livestrongcdn.com/ls-article-image-673/cpi.studiod.com/www_livestrong_com/photos.demandstudios.com/getty/article/199/230/462531123_XS.jpg");
+  background-size: cover;
+  background-position: center;
+}
