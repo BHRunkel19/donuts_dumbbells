@@ -35,13 +35,13 @@ button{
 }
 
 #donuts{
-  background-image: url("https://www.sandysdonuts.com/wp-content/uploads/2015/07/sandys-donuts-selections.jpg");
+  background-image: url("images/sandys-donuts-selections.jpg");
   background-size: cover;
   background-position: center;
 }
 
 #dumbbells{
-  background-image: url("http://img.aws.livestrongcdn.com/ls-article-image-673/cpi.studiod.com/www_livestrong_com/photos.demandstudios.com/getty/article/199/230/462531123_XS.jpg");
+  background-image: url("images/dumbbells.jpg");
   background-size: cover;
   background-position: center;
 }
