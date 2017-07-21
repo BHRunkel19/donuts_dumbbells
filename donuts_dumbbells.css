@@ -1,5 +1,5 @@
 #map {
-  height: 60%;
+  height: 50%;
   width: 40%;
   margin: 20px auto;
   margin-top: 25px;
@@ -58,14 +58,22 @@ button:active{
   background-position: center;
 }
 
-#sprinkles_fall{
-  background-image: url("images/sprinkles.jpg");
-  background-size: cover;
-  background-position: center;
-}
-
 #dumbbells{
   background-image: url("images/dumbbells.jpg");
   background-size: cover;
   background-position: center;
+}
+
+#clear_box{
+  display: flex;
+  justify-content: center;
+}
+
+#clear{
+  font-family: "Satisfy", cursive;
+  font-size: 20px;
+}
+
+h1{
+  margin: 20px auto;
 }
