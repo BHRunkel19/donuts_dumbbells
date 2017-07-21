@@ -80,7 +80,4 @@ function createMarker(place) {
   });
 }
 
-
-// // AIzaSyBDJs9UE0QyxDbT-WEOO05tl4_IAQUo70Q (API KEY)
-
 // ------------------------------------------
