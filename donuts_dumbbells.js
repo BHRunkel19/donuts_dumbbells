@@ -1,5 +1,4 @@
 console.log("Yay we're building a page about donuts");
-
 // SPRINKLES!
 
 // var rAF = window.requestAnimationFrame || window.mozRequestAnimationFrame ||
@@ -113,14 +112,16 @@ console.log("Yay we're building a page about donuts");
 
 
 // // Map API from Google + Place marker functionality
-
-//Global Variables
-var map;
-var infoWindow
+// Global Variables
+let map;
+let infoWindow;
+let donuts = document.querySelector('#donuts');
+let dumbbells = document.querySelector('#dumbbells');
+let clear = document.querySelector('#clear');
 //-----------------------
 
 function initMap() {
-var raleigh = {lat: 35.7796, lng: -78.6382};
+  var raleigh = {lat: 35.7796, lng: -78.6382};
 
   map = new google.maps.Map(document.getElementById('map'), {
     center: raleigh,
@@ -130,12 +131,12 @@ var raleigh = {lat: 35.7796, lng: -78.6382};
 
 //Donuts button will print relevant results
 donuts.addEventListener('click', function(){
-var service = new google.maps.places.PlacesService(map);
-var raleigh = {lat: 35.7780, lng: -78.6382};
+  var service = new google.maps.places.PlacesService(map);
+  var raleigh = {lat: 35.7780, lng: -78.6382};
   service.nearbySearch({
     location: raleigh,
-    radius: 500,
-    keyword: ["donuts", "food", "bakery"],
+    radius: 1000,
+    keyword: ["donuts", "food", "bakery"]
   }, callback);
 })
 
@@ -146,8 +147,17 @@ var service = new google.maps.places.PlacesService(map);
 var raleigh = {lat: 35.7780, lng: -78.6382};
   service.nearbySearch({
     location: raleigh,
-    radius: 500,
-    keyword: ["gym", "fitness"],
+    radius: 1000,
+    keyword: ["gym", "fitness"]
+  }, callback);
+})
+
+//Clear button will reset selection to remove displayed results
+clear.addEventListener('click', function(){
+  service.nearbySearch({
+    location: raleigh, 
+    radius: 1000,
+    keyword: [""]
   }, callback);
 })
 
