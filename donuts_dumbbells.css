@@ -38,10 +38,10 @@ html, body {
 }
 
 button{
-  width: 10%;
+  width: auto;
   margin: 50px;
   height: 100px;
-  border-radius: 25px;
+  border-radius: 15px;
   font-size: 24px;
   outline: none;
   border: 5px solid white;
