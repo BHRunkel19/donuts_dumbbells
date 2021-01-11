@@ -147,7 +147,7 @@ var service = new google.maps.places.PlacesService(map);
 var raleigh = {lat: 35.7780, lng: -78.6382};
   service.nearbySearch({
     location: raleigh,
-    radius: 1000,
+    radius: 5000,
     keyword: ["gym", "fitness"]
   }, callback);
 })
@@ -156,7 +156,7 @@ var raleigh = {lat: 35.7780, lng: -78.6382};
 clear.addEventListener('click', function(){
   service.nearbySearch({
     location: raleigh, 
-    radius: 1000,
+    radius: 5000,
     keyword: [""]
   }, callback);
 })
