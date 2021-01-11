@@ -1,20 +1,5 @@
 console.log("Yay we're building a page about donuts");
 
-//Body layout and functionality
-let body = document.querySelector("body");
-
-// let donuts = document.createElement("button");
-// donuts.setAttribute("id", "donuts");
-
-// let dumbbells = document.createElement("button");
-// dumbbells.setAttribute("id", "dumbbells");
-
-// let main_content = document.createElement("section");
-// main_content.setAttribute("id", "main_content");
-// main_content.appendChild(donuts);
-// main_content.appendChild(dumbbells);
-// body.appendChild(main_content);
-
 // SPRINKLES!
 
 // var rAF = window.requestAnimationFrame || window.mozRequestAnimationFrame ||
