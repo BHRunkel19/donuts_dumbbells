@@ -135,7 +135,7 @@ var raleigh = {lat: 35.7780, lng: -78.6382};
   service.nearbySearch({
     location: raleigh,
     radius: 500,
-    keyword: ["donuts"],
+    keyword: ["donuts", "food", "bakery"],
   }, callback);
 })
 
@@ -147,7 +147,7 @@ var raleigh = {lat: 35.7780, lng: -78.6382};
   service.nearbySearch({
     location: raleigh,
     radius: 500,
-    keyword: ["gym"],
+    keyword: ["gym", "fitness"],
   }, callback);
 })
 
