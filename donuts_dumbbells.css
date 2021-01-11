@@ -45,6 +45,7 @@ button{
   outline: none;
   border: 5px solid white;
   box-shadow: 10px 10px 10px black;
+  cursor: pointer;
 }
 
 button:active{
