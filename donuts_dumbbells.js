@@ -156,7 +156,7 @@ var raleigh = {lat: 35.7780, lng: -78.6382};
 })
 
 //Dumbbells button will print relevant results
-
+//Refactor to include dynamic location querying -- needs to store input value as location variable
 dumbbells.addEventListener('click', function(){
 var service = new google.maps.places.PlacesService(map);
 var raleigh = {lat: 35.7780, lng: -78.6382};
@@ -182,7 +182,7 @@ function createMarker(place) {
   var placeLoc = place.geometry.location;
   var marker = new google.maps.Marker({
     map: map,
-    position: place.geometry.location
+    position: placeLoc
   });
 
     infoWindow = new google.maps.InfoWindow();
