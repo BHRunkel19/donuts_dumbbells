@@ -10,12 +10,12 @@
 }
 /* Optional: Makes the sample page fill the window. */
 html, body {
+  border: 1px solid black;
   height: 100%;
   margin: 0;
   padding: 0;
-  background-image: url("http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2009/7/29/1248889135233/docdoc-doughnut-001.jpg");
+  background-image: url("./images/donuts_background.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
 }
 
 
@@ -25,7 +25,6 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
 #title_box{
@@ -33,8 +32,8 @@ html, body {
   display: flex;
   justify-content: center;
   font-family: 'Satisfy', cursive;
-  color: pink;
   font-size: 32px;
+  text-shadow: 5px 5px pink;
 }
 
 button{
